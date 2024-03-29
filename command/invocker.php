@@ -1,17 +1,11 @@
 <?php
-
-
-
 require_once './command.php';
-
-class invocker
-{
+///////////////// invocker class
+class invocker{
     private command $command;
-    public function setCommand(command $command)
-    {
+    public function __construct(command $command) {
         $this->command = $command;
     }
-
     public function run()
     {
         $this->command->execute();

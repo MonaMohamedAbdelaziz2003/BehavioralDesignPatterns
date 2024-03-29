@@ -1,7 +1,6 @@
 <?php
 
 require_once './command.php';
-// concrete command
 class deploy implements command{
    private receiver $receiver;
    public function __construct(receiver $receiver) {
@@ -9,9 +8,7 @@ class deploy implements command{
     }
     function execute()
     {
-        $this->receiver->add();
-        $this->receiver->commit();
-        $this->receiver->push();
+        $this->receiver->revert();
     }
 }
 ?>

@@ -1,5 +1,5 @@
 <?php
-
+//////// receiver
 class receiver{
     private $gitlog=[];
     public function log(){
@@ -13,6 +13,9 @@ class receiver{
     }
     public function push(){
          $this->gitlog[]='push';
+    }
+    public function revert(){
+         $this->gitlog[]='revert';
     }
 }
 ?>
