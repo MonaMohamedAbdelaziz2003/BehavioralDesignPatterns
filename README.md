@@ -15,17 +15,26 @@
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*wqHGES91TwX_KazIOB8fAg.png">
 <hr>
 
-
-<h3><a href="command">1- Command</a></h3>
+<h3><a href="command">2- Command</a></h3>
 <li>
  Command is a behavioral design pattern that turns a request
  into a stand-alone object that contains all information about
  the request. This transformation lets you parameterize
  methods with different requests, delay or queue a request’s
  execution, and support undoable operations.
-
 </li
   <br>
   <br>
 <img src="https://miro.medium.com/v2/resize:fit:776/1*RX4vi4T3l3G4d400m-qBGw.gif">
+<hr>
+
+<h3><a href="iterator">3- Iterator</a></h3>
+<li>
+Iterator is a behavioral design pattern that lets you traverse
+ elements of a collection without exposing its underlying
+ representation (list, stack, tree, etc.)
+</li
+  <br>
+  <br>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210705033409/uml11.jpg">
 <hr>
