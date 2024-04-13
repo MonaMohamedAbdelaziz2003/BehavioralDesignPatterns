@@ -36,5 +36,5 @@ Iterator is a behavioral design pattern that lets you traverse
 </li
   <br>
   <br>
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210705033409/uml11.jpg">
+<img src="https://scaler.com/topics/images/iterator-pattern-participants.webp">
 <hr>
