@@ -38,3 +38,18 @@ Iterator is a behavioral design pattern that lets you traverse
   <br>
 <img src="https://scaler.com/topics/images/iterator-pattern-participants.webp">
 <hr>
+
+
+
+<h3><a href="Mediator">4- Mediator</a></h3>
+<li>
+ Mediator is a behavioral design pattern that lets you reduce
+ chaotic dependencies between objects. The pattern restricts
+ direct communications between the objects and forces them to
+ collaborate only via a mediator object.
+
+</li
+  <br>
+  <br>
+<img src="https://i.stack.imgur.com/sK7yu.gif">
+<hr>
