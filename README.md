@@ -12,7 +12,7 @@
 </li>
   <br>
   <br>
-<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*wqHGES91TwX_KazIOB8fAg.png">
+<img src="https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/structure-indexed.png">
 <hr>
 
 <h3><a href="command">2- Command</a></h3>
@@ -25,7 +25,7 @@
 </li>
   <br>
   <br>
-<img src="https://miro.medium.com/v2/resize:fit:776/1*RX4vi4T3l3G4d400m-qBGw.gif">
+<img src="https://refactoring.guru/images/patterns/diagrams/command/structure-indexed.png">
 <hr>
 
 <h3><a href="iterator">3- Iterator</a></h3>
@@ -36,7 +36,7 @@ Iterator is a behavioral design pattern that lets you traverse
 </li>
   <br>
   <br>
-<img src="https://scaler.com/topics/images/iterator-pattern-participants.webp">
+<img src="https://refactoring.guru/images/patterns/diagrams/iterator/structure-indexed.png">
 <hr>
 
 
@@ -50,7 +50,7 @@ Iterator is a behavioral design pattern that lets you traverse
 </li>
   <br>
   <br>
-<img src="https://i.stack.imgur.com/sK7yu.gif">
+<img src="https://refactoring.guru/images/patterns/diagrams/mediator/structure-indexed.png">
 <hr>
 
 
@@ -62,5 +62,15 @@ Memento is a behavioral design pattern that lets you save and
 </li>
   <br>
   <br>
-<img src="https://i0.wp.com/cdn-images-1.medium.com/max/883/1*y77Zb5plxoSO8Ea7yvHM5w.png?w=800&ssl=1">
+<img src="https://refactoring.guru/images/patterns/diagrams/memento/structure1-indexed.png">
+<hr>
+
+
+<h3><a href="Observer">6- Observer</a></h3>
+<li>
+Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+</li>
+  <br>
+  <br>
+<img src="https://refactoring.guru/images/patterns/diagrams/observer/structure-indexed.png">
 <hr>
