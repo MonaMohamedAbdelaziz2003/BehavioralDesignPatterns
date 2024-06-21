@@ -1,0 +1,25 @@
+<?php
+include  "Store.php";
+include  "Customer.php";
+
+///     CLIENt
+// Create customers
+$customer1 = new Customer("Alice");
+$customer2 = new Customer("Bob");
+
+// Customers subscribe to the store
+$store = new Store();
+$store->registerSubscriber($customer1);
+$store->registerSubscriber($customer2);
+
+// product becoming available
+$store->setProductAvailable(true);
+
+// product becoming unavailable
+$store->setProductAvailable(false);
+
+// Customer 1 unsubscribes from the store
+$store->removeSubscriber($customer1);
+
+// product becoming available again
+$store->setProductAvailable(true);
