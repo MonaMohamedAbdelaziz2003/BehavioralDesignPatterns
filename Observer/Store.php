@@ -8,7 +8,7 @@ class Store implements IPublisher {
     private $Subscriber = [];
     private $productAvailable = false;
 
-    public function registerSubscriber(ISubscriber $Subscriber) {
+    public function addSubscriber(ISubscriber $Subscriber) {
         $this->Subscriber[] = $Subscriber;
     }
 

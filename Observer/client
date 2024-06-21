@@ -9,8 +9,8 @@ $customer2 = new Customer("Bob");
 
 // Customers subscribe to the store
 $store = new Store();
-$store->registerSubscriber($customer1);
-$store->registerSubscriber($customer2);
+$store->addSubscriber($customer1);
+$store->addSubscriber($customer2);
 
 // product becoming available
 $store->setProductAvailable(true);
