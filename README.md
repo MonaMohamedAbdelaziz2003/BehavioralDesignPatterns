@@ -74,3 +74,14 @@ Observer is a behavioral design pattern that lets you define a subscription mech
   <br>
 <img src="https://refactoring.guru/images/patterns/diagrams/observer/structure-indexed.png">
 <hr>
+
+
+<h3><a href="State">6- State</a></h3>
+<li>
+State is a behavioral design pattern that lets an object alter its
+behavior when its internal state changes. It appears as if the
+object changed its class.</li>
+  <br>
+  <br>
+<img src="https://refactoring.guru/images/patterns/diagrams/state/structure-en-indexed.png">
+<hr>
