@@ -9,12 +9,10 @@ class PlayingState implements State {
 
     public function pause(MediaPlayer $player) {
         echo "Pausing the player.\n";
-        $player->setState(new PausedState());
     }
-
+    
     public function stop(MediaPlayer $player) {
         echo "Stopping the player.\n";
-        $player->setState(new StoppedState());
     }
 }
 
