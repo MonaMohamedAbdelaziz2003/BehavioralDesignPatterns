@@ -1,4 +1,6 @@
 <?php
+require_once 'contextState.php';
+
 // State
 interface state{
     public function play(MediaPlayer $player);

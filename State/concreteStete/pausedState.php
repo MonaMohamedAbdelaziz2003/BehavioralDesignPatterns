@@ -6,6 +6,7 @@ require_once './state.php';
 class PausedState implements State {
     public function play(MediaPlayer $player) {
         echo "Resuming play.\n";
+        $player->setState(new PlayingState());
     }
 
     public function pause(MediaPlayer $player) {
@@ -17,6 +18,5 @@ class PausedState implements State {
         $player->setState(new StoppedState());
     }
 }
-
 
 ?>
