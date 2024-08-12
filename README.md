@@ -96,3 +96,15 @@ and make their objects interchangeable.</li>
   <br>
 <img src="https://refactoring.guru/images/patterns/diagrams/strategy/structure-indexed.png">
 <hr>
+
+
+<h3><a href="Template">9-Template</a></h3>
+<li>
+Template Method is a behavioral design pattern that defines
+the skeleton of an algorithm in the superclass but lets
+subclasses override specific steps of the algorithm without
+changing its structure.</li>
+  <br>
+  <br>
+<img src="https://refactoring.guru/images/patterns/diagrams/template-method/structure-2x.png">
+<hr>
