@@ -98,7 +98,7 @@ and make their objects interchangeable.</li>
 <hr>
 
 
-<h3><a href="Template">9-Template</a></h3>
+<h3><a href="Template Method">9-Template</a></h3>
 <li>
 Template Method is a behavioral design pattern that defines
 the skeleton of an algorithm in the superclass but lets
