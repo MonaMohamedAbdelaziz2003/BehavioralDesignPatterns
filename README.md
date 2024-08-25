@@ -108,3 +108,13 @@ changing its structure.</li>
   <br>
 <img src="https://refactoring.guru/images/patterns/diagrams/template-method/structure-2x.png">
 <hr>
+
+
+<h3><a href="Visitor"> 9- Visitor</a></h3>
+<li>
+Visitor is a behavioral design pattern that lets you separate
+algorithms from the objects on which they operate.</li>
+  <br>
+  <br>
+<img src="https://refactoring.guru/images/patterns/diagrams/visitor/structure-en-2x.png">
+<hr>
